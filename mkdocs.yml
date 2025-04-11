@@ -1,8 +1,6 @@
 site_name: Documentação Lollol
 site_url: https://exemplo.com  # opcional
 theme: readthedocs
-extra_css:
-  - stylesheets/custom.css
 
 nav:
   - Início: index.md
