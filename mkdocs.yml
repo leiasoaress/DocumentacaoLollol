@@ -1,0 +1,23 @@
+site_name: Documentação Lollol
+site_url: https://exemplo.com  # opcional
+theme: readthedocs
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+  - Início: index.md
+  - Sistema:
+      - Cadastros:
+        - Estabelecimento: sistema/cadastros/estabelecimento.md
+        - Profissionais: sistema/cadastros/profissionais.md
+      - Agenda: sistema/agenda.md
+      - Comissão:
+        - Fechamento por período: sistema/comissao/fechamentoPorPeriodo.md
+  - Dúvidas frequentes: duvidasFrequentes.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/seu-usuario
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/seu-usuario
