@@ -1,6 +1,7 @@
 site_name: Documentação Lollol
 site_url: https://exemplo.com  # opcional
-theme: readthedocs
+theme:
+  name: readthedocs
 
 nav:
   - Início: index.md
@@ -19,3 +20,5 @@ extra:
       link: https://github.com/seu-usuario
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/seu-usuario
+
+docs_dir: docs
